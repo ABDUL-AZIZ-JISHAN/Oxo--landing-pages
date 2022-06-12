@@ -1,0 +1,27 @@
+// Coundown Single Item
+.counter-single-item {
+    padding: 25px 0 0;
+    .counter-item {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        padding-top: 12px;
+        border-radius: 50%;
+        background-color: #5f2eca;
+        span {
+            text-align: center;
+            color: $white;
+            display: block;
+            line-height: 35px;
+            font-size: 30px;
+            font-weight: 700;
+        }
+        h6 {
+            color: $white;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 18px;
+        }
+    }
+}

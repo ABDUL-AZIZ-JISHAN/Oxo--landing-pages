@@ -1,0 +1,98 @@
+/*-------------------------
+    ## Preloader Css
+---------------------------*/
+
+$colors: #84ebbd,
+#4977ec,
+#f6bb67,
+#333841;
+$d: 175.6449737548828;
+.pre-wrap {
+    position: fixed;
+    content: "";
+    transform: translate(-100%, -240%);
+    font-size: 62px;
+}
+
+.preloader-inner {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    background-color: $white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div {
+        width: 120px;
+        height: 120px;
+        background: linear-gradient(-45deg, #fb3c7f, #ffc05e);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        animation: rotation 4s ease-in-out infinite;
+    }
+    @keyframes rotation {
+        0% {
+            border-radius: 5% 5% 5% 5%;
+            transform: translate(-50%, -50%) rotate(0deg);
+        }
+        12.5% {
+            border-radius: 50% 5% 5% 5%;
+            transform: translate(-50%, -50%) rotate(45deg);
+        }
+        25% {
+            border-radius: 50% 50% 5% 5%;
+            transform: translate(-50%, -50%) rotate(90deg);
+        }
+        37.5% {
+            border-radius: 50% 50% 50% 5%;
+            transform: translate(-50%, -50%) rotate(135deg);
+        }
+        50% {
+            border-radius: 50% 50% 50% 50%;
+            transform: translate(-50%, -50%) rotate(180deg);
+        }
+        62.5% {
+            border-radius: 5% 50% 50% 50%;
+            transform: translate(-50%, -50%) rotate(225deg);
+        }
+        75% {
+            border-radius: 5% 5% 50% 50%;
+            transform: translate(-50%, -50%) rotate(270deg);
+        }
+        87.5% {
+            border-radius: 5% 5% 5% 50%;
+            transform: translate(-50%, -50%) rotate(315deg);
+        }
+        100% {
+            border-radius: 5% 5% 5% 5%;
+            transform: translate(-50%, -50%) rotate(360deg);
+        }
+    }
+    .cancel-preloader {
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+        a {
+            background-color: var(--main-color-one);
+            font-weight: 600;
+            text-transform: capitalize;
+            color: $white;
+            width: 200px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 30px;
+            display: block;
+            @include transition($transition);
+            &:hover {
+                background-color: var(--secondary-color);
+                color: $white;
+            }
+        }
+    }
+}

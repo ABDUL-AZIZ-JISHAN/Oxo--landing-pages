@@ -1,0 +1,59 @@
+// single-service-item
+.single-service-item {
+    background-color: $white;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    z-index: 0;
+    transition: all .3s;
+    overflow: hidden;
+    &:hover {
+        .icon {
+            border: 2px solid #4b3be1;
+            background-color: transparent;
+            color: #4b3be1;
+            font-weight: 700;
+            &.style-02 {
+                border: 2px solid #fb3c7f;
+                color: #fb3c7f;
+                background-color: transparent;
+            }
+            &.style-03 {
+                border: 2px solid #00d280;
+                color: #00d280;
+                background-color: transparent;
+            }
+        }
+    }
+    .icon {
+        text-align: center;
+        font-size: 30px;
+        line-height: 70px;
+        width: 70px;
+        height: 70px;
+        margin: auto;
+        border-radius: 50%;
+        transition: all .3s;
+        border: 2px solid transparent;
+        background-color: #4b3be1;
+        color: $white;
+        margin-bottom: 18px;
+        transition: all 500ms ease-in-out;
+        &.style-02 {
+            background-color: #fb3c7f;
+        }
+        &.style-03 {
+            background-color: #00d280;
+        }
+    }
+    .content {
+        .title {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 700;
+        }
+        p {
+            transition: all .5s;
+        }
+    }
+}

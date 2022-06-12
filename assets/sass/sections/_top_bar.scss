@@ -1,0 +1,26 @@
+/*----------------------------
+    Top Bar
+----------------------------*/
+
+.topbar-area {
+    background-color: var(--main-color-two);
+}
+
+.topbar-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    div {
+        .boxed-btn {
+            padding: 15px 30px;
+            background-color: var(--main-color-one);
+            display: inline-block;
+            color: $white;
+            @include transition($transition);
+            &:hover {
+                background-color: var(--secondary-color);
+                color: $white;
+            }
+        }
+    }
+}

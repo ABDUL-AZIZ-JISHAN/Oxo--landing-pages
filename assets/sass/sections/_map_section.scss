@@ -1,0 +1,8 @@
+// Map section
+.map-section {
+    &.bg-image {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

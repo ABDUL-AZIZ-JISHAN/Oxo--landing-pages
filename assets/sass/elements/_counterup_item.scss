@@ -1,0 +1,84 @@
+/*----------------------------
+    Counterup Item
+----------------------------*/
+
+.counter-item-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.counter-item-list li {
+    width: calc(100% / 3);
+    +li {
+        border-left: 1px solid #a8aab1;
+    }
+}
+
+.single-counterup-block-with-img {
+    display: inline-block;
+    .thumb {
+        position: relative;
+        z-index: 0;
+        img {
+            border-bottom-right-radius: 50px;
+        }
+        .hover {
+            position: absolute;
+            left: 5%;
+            top: 5%;
+            width: 90%;
+            background-color: $white;
+            height: 90%;
+            border-bottom-right-radius: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .title {
+                font-size: 18px;
+                line-height: 28px;
+                font-family: var(--body-font);
+            }
+            .count-num {
+                font-size: 120px;
+                line-height: 130px;
+                color: var(--main-color-one);
+                font-family: var(--heading-font);
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.single-counterup-01 {
+    text-align: center;
+    &.white {
+        .content {
+            .title {
+                color: $white
+            }
+            .count-wrap {
+                color: $white
+            }
+        }
+    }
+    .content {
+        .title {
+            font-size: 18px;
+            line-height: 28px;
+            color: #000629;
+            font-family: var(--body-font);
+        }
+        .count-wrap {
+            font-size: 48px;
+            line-height: 58px;
+            font-weight: 700;
+            color: #000629;
+            font-family: var(--heading-font);
+            margin-bottom: 0;
+        }
+    }
+}

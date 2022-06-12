@@ -1,0 +1,42 @@
+// online-order-area
+.food-img {
+    &.bg-image {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left;
+        min-height: 450px;
+        width: 100%;
+    }
+}
+
+.delight-customers-area,
+.online-order-area {
+    .section-title {
+        .title {
+            font-size: 42px;
+            line-height: 52px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 20px;
+            line-height: 30px;
+            font-family: var(--heading-font-02);
+        }
+    }
+    .content {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        li {
+            font-size: 20px;
+            font-family: var(--heading-font-02);
+            +li {
+                margin-top: 10px;
+            }
+            i {
+                margin-right: 10px;
+                color: #fbaf3f;
+            }
+        }
+    }
+}

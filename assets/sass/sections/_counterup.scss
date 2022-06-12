@@ -1,0 +1,30 @@
+/*--------------------------
+    Counterup Area
+--------------------------*/
+
+.counterup-area {
+    background-color: #f1f4fe;
+    &.style-01 {
+        position: relative;
+        z-index: 0;
+        background-color: #0f1182;
+        .bg-img {
+            position: absolute;
+            top: 0;
+            left: 10%;
+            width: 180px;
+            height: 300px;
+            background-size: cover;
+            z-index: -1;
+        }
+        .bg-img-02 {
+            position: absolute;
+            bottom: 0;
+            right: 5%;
+            width: 450px;
+            height: 200px;
+            background-size: cover;
+            z-index: -1;
+        }
+    }
+}

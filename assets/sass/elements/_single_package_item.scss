@@ -1,0 +1,61 @@
+/*---------------------------
+Single package item
+---------------------------*/
+
+.single-package-item {
+    position: relative;
+    z-index: 0;
+    margin-bottom: 30px;
+    &.bg-image {
+        width: 100%;
+        border-radius: 50px;
+        min-height: 225px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        z-index: 0;
+        &:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            border-radius: 50px;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(#f71d4b, .10);
+        }
+        canvas {
+            border-radius: 50px;
+        }
+    }
+    .content {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 30px;
+        z-index: 1;
+        .title {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 30px;
+            color: $white;
+        }
+        .btn-wrapper {
+            .boxed-btn {
+                font-size: 16px;
+                font-weight: 700;
+                color: var(--secondary-color);
+                padding: 6px 20px;
+                border-radius: 30px;
+                background-color: $white;
+                margin-bottom: 10px;
+                &:hover {
+                    color: $white;
+                    background-color: var(--main-color-one);
+                }
+            }
+        }
+    }
+}

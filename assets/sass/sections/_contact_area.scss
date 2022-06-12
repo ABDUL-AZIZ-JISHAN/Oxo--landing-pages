@@ -1,0 +1,12 @@
+// Contact Area
+.contact-area {
+    &.bg-image {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+}
+
+.contact-img {
+    &.bg-image {}
+}

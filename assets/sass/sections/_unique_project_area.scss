@@ -1,0 +1,88 @@
+// Unique Project Area
+.unique-project-area {
+    .shape {
+        position: relative;
+        z-index: 0;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        .shape-02 {
+            position: absolute;
+            width: 130px;
+            height: 150px;
+            top: 30%;
+            transform: translateY(-50%);
+            border-radius: 57% 24% 71% 16% / 55% 15% 73% 27%;
+            background-color: #ffe477;
+            z-index: -1;
+            animation: shape-anmi 10s infinite;
+            &.style-01 {
+                position: absolute;
+                right: 0;
+                top: 30%;
+                transform: translateY(-50%);
+                background-color: #151cc5;
+            }
+            @keyframes shape-anmi {
+                0% {
+                    border-radius: 57% 24% 71% 16% / 55% 15% 73% 27%;
+                }
+                25% {
+                    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+                }
+                50% {
+                    border-radius: 69% 31% 49% 51% / 60% 36% 64% 40%;
+                }
+                75% {
+                    border-radius: 69% 31% 49% 51% / 60% 36% 64% 40%;
+                }
+                100% {
+                    border-radius: 57% 24% 71% 16% / 55% 15% 73% 27%;
+                }
+            }
+        }
+    }
+    .build-img {
+        &.bg-image {
+            padding-top: 120px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right;
+            min-height: 450px;
+            width: 100%;
+        }
+        &.bg-image-02 {
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            min-height: 450px;
+            width: 100%;
+        }
+    }
+}
+
+.unique-content-area {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    .section-title {
+        .content {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            margin-top: 40px;
+            li {
+                i {
+                    margin-right: 20px;
+                    color: #151cc5;
+                }
+                strong {
+                    color: #000629;
+                }
+                +li {
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}

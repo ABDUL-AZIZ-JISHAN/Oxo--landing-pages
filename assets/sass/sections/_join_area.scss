@@ -1,0 +1,45 @@
+// JOin area
+.join-apps-area {
+    &.style-01 {
+        background-color: #f9f3ff;
+    }
+    .section-title {
+        .apps-download {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            .download-img {
+                padding: 0 15px;
+            }
+            .download-link {
+                margin-right: 15px;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 24px;
+                color: #f74e86;
+                background-color: rgba(2, 1, 1, 0);
+                border-style: solid;
+                border-width: 1px;
+                border-color: #f74e86;
+                border-radius: 30px;
+                padding: 15px 40px;
+                transition: all 500ms ease-in-out;
+                i {
+                    margin-right: 10px;
+                }
+                &:hover {
+                    background-color: #f74e86;
+                    color: $white;
+                }
+                &.style-01 {
+                    color: #7965cc;
+                    border-color: #7965cc;
+                    &:hover {
+                        background-color: #7965cc;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+// choose-single-item
+.choose-single-item {
+    &:hover {
+        .icon {
+            animation: btnAnime .6s ease forwards;
+        }
+    }
+    .icon {
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 25px;
+        color: $white;
+        background-color: #6600f2;
+        margin-bottom: 20px;
+        cursor: pointer;
+        @keyframes btnAnime {
+            5% {
+                transform: scale(0.8);
+            }
+            25% {
+                // background: none;
+            }
+            50% {
+                transform: scale(1.5);
+                // border: 1px solid #555;
+            }
+            100% {
+                transform: scale(1);
+                // background: rgba(255, 255, 255, 0.1);
+                // border: 1px solid #555;
+            }
+        }
+        &.style-01 {
+            background-color: #fb3c7f;
+        }
+        &.style-02 {
+            background-color: #00d280;
+        }
+        &.style-03 {
+            background-color: #fbab2f;
+        }
+    }
+    .content {
+        .title {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 500;
+        }
+    }
+}

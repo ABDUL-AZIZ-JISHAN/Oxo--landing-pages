@@ -1,0 +1,309 @@
+/*---------------------------------------
+    ## Button
+---------------------------------------*/
+
+.btn-wrapper {
+    display: block;
+    .boxed-btn {
+        background-color: var(--secondary-color);
+        color: #fff;
+        display: inline-block;
+        padding: 12px 40px;
+        border-radius: 50px;
+        text-transform: capitalize;
+        text-align: center;
+        cursor: pointer;
+        @include transition($transition);
+        font-weight: 600;
+        &.white {
+            &:hover {
+                background-color: $white;
+                color: var(--main-color-one);
+            }
+        }
+        &.outer-btn {
+            border: 1px solid transparent;
+            &:hover {
+                background-color: transparent;
+                color: var(--main-color-one);
+                border: 1px solid var(--main-color-one);
+            }
+        }
+        &.blank {
+            background-color: transparent;
+            border: 1px solid $white;
+            &.reverse-color {
+                background-color: transparent;
+                border: 2px solid var(--main-color-one);
+                color: var(--main-color-one);
+                &:hover {
+                    background-color: var(--main-color-one);
+                    color: $white;
+                    border-color: var(--main-color-one);
+                }
+            }
+            &:hover {
+                background-color: var(--secondary-color);
+                color: $white;
+                border-color: var(--secondary-color);
+            }
+        }
+        &.btn-gradient {
+            background-color: transparent;
+            background-image: linear-gradient(270deg, #f73aee 0%, #fd5886 100%);
+        }
+        &.btn-startup {
+            border-radius: 5px;
+            background-color: #f8319b;
+            &:hover {
+                background-color: #0196ff;
+            }
+            &.reverse-color {
+                background-color: #0196ff;
+                &:hover {
+                    background-color: #f8319b;
+                }
+            }
+            &.blank {
+                background-color: transparent;
+                border: 1px solid $white;
+                &:hover {
+                    border: 1px solid #f8319b;
+                    background-color: #f8319b;
+                }
+            }
+        }
+        &.btn-saas {
+            background-color: #930ed8;
+            &:hover {
+                background-color: #fd6975;
+            }
+            &.reverse-color {
+                background-color: #fd6975;
+                &:hover {
+                    border: 1px solid #930ed8;
+                    background-color: #930ed8;
+                }
+            }
+        }
+        &.btn-brand {
+            background-color: #6327eb;
+            border-radius: 0;
+            &:hover {
+                background-color: #fd6975;
+            }
+            &.reverse-color {
+                background-color: #fd6975;
+                &:hover {
+                    border: 1px solid #930ed8;
+                    background-color: #930ed8;
+                }
+            }
+            &.white {
+                background-color: #fff;
+                color: #6327eb;
+                &:hover {
+                    color: $white;
+                    background-color: #930ed8;
+                }
+            }
+        }
+        &.btn-food {
+            padding: 12px 30px;
+            background-color: #fbaf3f;
+            border-radius: 10px;
+            &:hover {
+                background-color: #fd6975;
+            }
+            &.reverse-color {
+                background-color: #fd6975;
+                &:hover {
+                    border: 1px solid #930ed8;
+                    background-color: #930ed8;
+                }
+            }
+            &.white {
+                background-color: #fff;
+                color: #6327eb;
+                &:hover {
+                    color: $white;
+                    background-color: #930ed8;
+                }
+            }
+        }
+        &.btn-gym {
+            padding: 12px 30px;
+            background-color: #ae39ff;
+            border-radius: 0;
+            &:hover {
+                background-color: #fd2b6b;
+            }
+            &.reverse-color {
+                background-color: #fd2b6b;
+                &:hover {
+                    border: 1px solid #930ed8;
+                    background-color: #930ed8;
+                }
+            }
+            &.white {
+                background-color: #fff;
+                color: #6327eb;
+                &:hover {
+                    color: $white;
+                    background-color: #930ed8;
+                }
+            }
+        }
+        &.btn-finance {
+            padding: 12px 40px;
+            background-color: #5fecfe;
+            border-radius: 5px;
+            color: #0c0765;
+            &:hover {
+                background-color: #fd2b6b;
+            }
+            &.reverse-color {
+                background-color: #fd6975;
+                &:hover {
+                    border: 1px solid #930ed8;
+                    background-color: #930ed8;
+                }
+            }
+            &.white {
+                background-color: #fff;
+                color: #6327eb;
+                &:hover {
+                    color: $white;
+                    background-color: #930ed8;
+                }
+            }
+        }
+        &.btn-business {
+            padding: 12px 40px;
+            background-color: #ff6661;
+            border-radius: 5px;
+            color: #fff;
+            &:hover {
+                background-color: #fd2b6b;
+            }
+            &.reverse-color {
+                background-color: #fd6975;
+                &:hover {
+                    border: 1px solid #930ed8;
+                    background-color: #930ed8;
+                }
+            }
+            &.white {
+                background-color: #fff;
+                color: #6327eb;
+                &:hover {
+                    color: $white;
+                    background-color: #930ed8;
+                }
+            }
+            &.blank {
+                background-color: transparent;
+                border: 1px solid $white;
+                &:hover {
+                    border: 1px solid #fd2b6b;
+                    background-color: #fd2b6b;
+                }
+            }
+        }
+        &.btn-entertainment {
+            background-color: #0f1182;
+            &:hover {
+                color: #0f1182;
+                background-color: #ffffff;
+            }
+            &.reverse-color {
+                color: #0f1182;
+                background-color: #ffffff;
+                &:hover {
+                    color: $white;
+                    border: 1px solid #0f1182;
+                    background-color: #0f1182;
+                }
+            }
+        }
+        &:hover {
+            background-color: var(--secondary-color);
+        }
+        &.btn-rounded {
+            border-radius: 30px;
+        }
+        &.reverse-color {
+            background-color: var(--main-color-two);
+            &:hover {
+                background-color: var(--main-color-one);
+            }
+        }
+    }
+    .read-btn {
+        color: var(--main-color-one);
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .login-btn {
+        color: $white;
+        padding: 12px 40px;
+        margin-right: 20px;
+        transition: all 500ms ease-in;
+        border-radius: 30px;
+        border: 1px solid transparent;
+        &:hover {
+            border: 1px solid $white;
+        }
+    }
+}
+
+.close-btn {
+    position: absolute;
+    right: -15px;
+    top: -20px;
+    width: 30px;
+    height: 30px;
+    color: $white;
+    border-color: var(--main-color-one);
+    background-color: var(--main-color-one);
+    transition: all 0.3s ease-in;
+    padding: 0;
+    text-align: center;
+}
+
+.desktop-center {
+    text-align: center;
+}
+
+.desktop-left {
+    text-align: left;
+}
+
+.desktop-right {
+    text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .tablet-center {
+        text-align: center;
+    }
+    .tablet-left {
+        text-align: left;
+    }
+    .tablet-right {
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .mobile-center {
+        text-align: center;
+    }
+    .mobile-left {
+        text-align: left;
+    }
+    .mobile-right {
+        text-align: right;
+    }
+}

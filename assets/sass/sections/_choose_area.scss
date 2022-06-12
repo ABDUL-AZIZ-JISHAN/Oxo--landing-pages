@@ -1,0 +1,57 @@
+// Why Choose Us
+.choose-us-area {
+    position: relative;
+    z-index: 1;
+    &.bg-image {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+    .bg-img {
+        position: absolute;
+        left: 0;
+        bottom: 375px;
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        max-height: 485px;
+        animation: topbottom 10s infinite;
+        transition: all .5s;
+        @keyframes topbottom {
+            0% {
+                bottom: 255px;
+            }
+            50% {
+                bottom: 275px;
+            }
+            100% {
+                bottom: 255px;
+            }
+        }
+    }
+    .bg-img-02 {
+        position: absolute;
+        right: 50px;
+        bottom: 285px;
+        height: 165px;
+        width: 60px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transform-origin: bottom center;
+        animation: swing 12s infinite both;
+        z-index: -1;
+    }
+    .bg-img-03 {
+        position: absolute;
+        right: 0;
+        bottom: 285px;
+        height: 165px;
+        width: 60px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transform-origin: bottom center;
+        animation: swing 12s infinite both;
+        z-index: -1;
+    }
+}

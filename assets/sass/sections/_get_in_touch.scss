@@ -1,0 +1,30 @@
+// Get In Touch
+.get-in-touch-area {
+    background-color: #7a5bff;
+    position: relative;
+    z-index: 0;
+    .bg-image {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 550px;
+        height: 100%;
+        background-size: cover;
+    }
+    .bg-image-02 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 400px;
+        height: 100%;
+        background-size: cover;
+    }
+    .bg-image-03 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+}

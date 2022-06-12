@@ -1,0 +1,144 @@
+/*---------------------------
+    Price Plan
+---------------------------*/
+
+.single-price-plan-01 {
+    padding: 40px 0 45px 0;
+    background-color: $white;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid #ece3fb;
+    transition: all .3s ease-in;
+    &:hover,
+    &.active {
+        border: 5px solid var(--secondary-color);
+        box-shadow: 0px 14px 103px 0px rgba(0, 0, 0, 0.1);
+    }
+    .price-header {
+        text-align: center;
+        .img-icon {}
+        .title {
+            margin-bottom: 30px;
+            font-size: 24px;
+            color: var(--heading-color);
+            line-height: 34px;
+            font-weight: 700;
+        }
+        .info-text {
+            font-size: 14px;
+            text-transform: uppercase;
+            line-height: 24px;
+        }
+    }
+    .price-body {
+        margin-top: 5px;
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: center;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                +li {
+                    margin-top: 15px;
+                }
+                i {
+                    color: #51d55f;
+                }
+            }
+        }
+    }
+    .price-wrap {
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 13px;
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 700;
+        color: var(--heading-color);
+        .month {
+            color: #30323d;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+    .price-footer {
+        text-align: center;
+        .btn-wrapper {
+            .boxed-btn {
+                background-image: linear-gradient( -90deg, rgb(247, 56, 245) 0%, rgb(253, 89, 128) 100%);
+                padding: 12px 40px;
+                &:hover {
+                    background-image: linear-gradient( 90deg, rgb(247, 56, 245) 0%, rgb(253, 89, 128) 100%);
+                }
+            }
+        }
+    }
+}
+
+.single-price-plan-02 {
+    padding: 40px 0 45px 0;
+    background-color: $white;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid #ece3fb;
+    transition: all .3s ease-in;
+    text-align: center;
+    &:hover,
+    &.active {
+        box-shadow: 0px 0px 136px 0px rgba(112, 72, 192, 0.47);
+    }
+    .price-header {
+        text-align: center;
+        .title {
+            font-size: 24px;
+            color: var(--heading-color);
+            line-height: 34px;
+            font-weight: 500;
+        }
+        .info-text {
+            font-size: 14px;
+            text-transform: uppercase;
+            line-height: 24px;
+        }
+    }
+    .price-body {
+        margin-top: 5px;
+        margin-bottom: 25px;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                +li {
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+    .price-wrap {
+        margin-bottom: 13px;
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 700;
+        color: #f7618b;
+        .month {
+            color: #141f4e;
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+    .price-footer {
+        text-align: center;
+        .btn-wrapper {
+            .boxed-btn {
+                background-color: #7831f3;
+                padding: 12px 60px;
+                &:hover {
+                    background-color: #7831f3;
+                }
+            }
+        }
+    }
+}

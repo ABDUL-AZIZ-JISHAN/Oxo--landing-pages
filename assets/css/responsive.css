@@ -1,0 +1,1012 @@
+/* Medium Layout: 1200px. */
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+    .get-in-touch-area .bg-image {
+        display: none;
+    }
+    .header-area.header-lifestyle {
+        padding: 205px 0 255px;
+    }
+    .offer-area.padding-bottom-200.padding-top-640.bg-image {
+        padding-top: 420px;
+    }
+    .testimonial-area.bg-image-02 {
+        margin-bottom: -290px;
+    }
+    .daily-workout-area.section-wrapper.bg-image.padding-top-600 {
+        padding-top: 260px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .get-in-touch-area .bg-image {
+        display: none;
+    }
+    .header-area.header-lifestyle {
+        padding: 205px 0 255px;
+    }
+    .offer-area.padding-bottom-200.padding-top-640.bg-image {
+        padding-top: 420px;
+    }
+    .testimonial-area.bg-image-02 {
+        margin-bottom: -290px;
+    }
+    .daily-workout-area.section-wrapper.bg-image.padding-top-600 {
+        padding-top: 260px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .offer-area.padding-bottom-200.padding-top-640.bg-image {
+        padding-top: 420px;
+    }
+    .header-area.header-restaurant .header-inner .title {
+        font-size: 80px;
+        line-height: 90px;
+    }
+    .section-title.restaurant .title {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .food-section .title {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .call-to-action-inner.style-02 {
+        padding: 75px 70px 80px;
+    }
+    .testimonial-area .sass-testimonial {
+        padding: 0 30px 68px;
+    }
+    .single-everything-item {
+        padding: 0 20px;
+    }
+    .offer-single-item .content {
+        margin-left: 20px;
+    }
+    .header-area.header-startup .shape-02 {
+        width: 500px;
+        height: 525px;
+    }
+    .header-area.header-sass .sass-bg-img {
+        height: 530px;
+        width: 630px;
+    }
+    .testimonial-area .lifestyle-testimonial .section-title {
+        display: block;
+    }
+    .single-testimonial-item-06 .content .bg-image {
+        background-size: cover;
+    }
+    .single-testimonial-item-06 .thumb {
+        display: none;
+    }
+    .single-testimonial-item-06 .content .author-details .author-meta {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .section-title.gym .title {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .section-title.brand .title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .header-area.header-finance .header-inner .title {
+        font-size: 54px;
+        line-height: 64px;
+    }
+    .how-it-single-item {
+        padding: 0 15px;
+    }
+    .call-to-action-inner.style-05 .call-to-action-content {
+        padding: 70px 0;
+    }
+    .work-single-item-03 {
+        padding: 45px 15px 40px;
+    }
+    .vivid-content-area {
+        padding: 80px 40px;
+    }
+    .header-area.header-entertainment .header-inner .title {
+        font-size: 100px;
+        line-height: 110px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (max-width: 991px) {
+    .offer-area.padding-bottom-200.padding-top-640.bg-image {
+        padding-top: 420px;
+    }
+    .testimonial-area.bg-image-02 {
+        margin-bottom: -290px;
+    }
+    .daily-workout-area.section-wrapper.bg-image.padding-top-600 {
+        padding-top: 260px;
+    }
+    .header-area.header-entertainment .entertainment-bg-img {
+        display: none;
+    }
+    .supports-img.bg-image {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .call-to-action-inner.style-07 {
+        display: block;
+    }
+    .counter-item-list li {
+        width: calc(100% / 2);
+    }
+    .counter-item-list li+li {
+        border-left: none;
+    }
+    .contact-area .bg-image-02 {
+        position: initial;
+        background-position: center;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .section-title.brand .title {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .call-to-action-inner.style-06 {
+        padding: 90px 40px 80px;
+    }
+    .cover-your-wrap .shape-02 {
+        display: none;
+    }
+    .call-to-action-inner.style-05 .call-to-action-content {
+        padding: 70px 40px;
+    }
+    .navbar-area.nav-style-02 .nav-container .nav-right-content {
+        display: none;
+    }
+    .section-title.restaurant .title {
+        font-size: 56px;
+        line-height: 66px;
+    }
+    .food-img.bg-image {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .call-to-action-inner.style-04 {
+        padding: 55px 40px 55px 40px;
+    }
+    .call-to-action-inner.style-04 .title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .food-section .title {
+        font-size: 60px;
+        line-height: 70spx;
+    }
+    .single-testimonial-item-09 {
+        display: block;
+    }
+    .single-testimonial-item-09 .content-wrap {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .choose-us-area .bg-img {
+        display: none;
+    }
+    .destination-area .destination-img.bg-image {
+        margin-bottom: 40px;
+    }
+    .trip-area .trip-img.bg-image {
+        margin-top: 40px;
+    }
+    .widget.footer-widget.widget_subscribe {
+        display: block;
+    }
+    .widget.footer-widget .subscribe-form {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .contact-area .bg-image {
+        min-height: 300px;
+    }
+    .create-content-area .trip-img.bg-image {
+        background-position: center;
+        margin-bottom: 40px;
+    }
+    .single-everything-item {
+        padding: 0 20px;
+    }
+    .create-content-area .section-title,
+    .bulid-content-area .section-title .title {
+        max-width: initial;
+    }
+    .call-to-action-inner.style-02 {
+        display: block;
+    }
+    .call-to-action-inner.style-02 .btn-wrapper {
+        margin-top: 30px;
+        text-align: left;
+    }
+    .call-to-action-inner.style-02 .btn-wrapper .boxed-btn {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    .call-to-action-inner {
+        padding: 55px 30px 60px;
+    }
+    .create-content-area.padding-top-110.padding-bottom-115 {
+        padding-top: 0;
+    }
+    .header-area.header-lifestyle {
+        padding: 205px 0 255px;
+    }
+    .header-area .bg-img-11 {
+        height: 360px;
+        width: 473px;
+        right: 0;
+    }
+    .header-area .bg-img {
+        height: 190px;
+    }
+    .header-area .bg-img-06 {
+        left: 10%;
+    }
+    .header-area .bg-img-09 {
+        height: 260px;
+        width: 100px;
+    }
+    .header-area .bg-img-08 {
+        height: 230px;
+    }
+    .header-area .bg-img-10 {
+        height: 200px;
+    }
+    .frequently-area.padding-bottom-70 {
+        padding-bottom: 120px;
+    }
+    .header-area.header-startup .shape-02 {
+        width: 500px;
+        height: 525px;
+    }
+    .header-area.header-sass .sass-bg-img {
+        display: none;
+    }
+    .header-area.header-startup .startup-bg-img {
+        display: none;
+    }
+    .build-area .shape:after {
+        display: none;
+    }
+    .build-area .build-img.bg-image-02 {
+        margin-bottom: 40px;
+    }
+    .header-area {
+        padding: 290px 0 355px;
+    }
+    .get-in-touch-area .bg-image {
+        display: none;
+    }
+    .testimonial-area .lifestyle-testimonial .section-title {
+        display: block;
+    }
+    .unique-project-area .build-img.bg-image-02 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .single-testimonial-item-06 .content .bg-image {
+        background-size: cover;
+    }
+    .single-testimonial-item-06 .thumb {
+        display: none;
+    }
+    .single-testimonial-item-06 .content .author-details .author-meta {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .testimonial-area .lifestyle-testimonial .section-title .title {
+        margin-right: 0;
+    }
+    .header-area.header-lifestyle .sass-bg-img {
+        display: none;
+    }
+    .single-testimonial-item-07 .content .description {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .get-in-touch-area .bg-image {
+        display: none;
+    }
+    .breadcrumb-area .icon {
+        margin-bottom: 40px;
+    }
+    .breadcrumb-area .page-title {
+        width: initial;
+    }
+    .fitness-app-img.wow.animate__.animate__zoomIn.animated {
+        margin-bottom: 40px;
+    }
+    .cover-your-wrap .cover-img.bg-image-02 {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .unique-content-area {
+        padding: 0 40px;
+    }
+}
+
+
+/* Tablet Layout wide: 768px. */
+
+@media only screen and (max-width: 767px) {
+    .header-area.header-entertainment .header-inner .title {
+        font-size: 90px;
+        line-height: 100px;
+    }
+    .header-area.header-entertainment .header-inner p {
+        font-size: 20px;
+    }
+    .call-to-action-inner.style-07 {
+        padding: 55px 0;
+    }
+    .header-area.header-business .business-bg-img {
+        display: none;
+    }
+    .section-title.startup .title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .header-area.header-finance .finance-bg-img {
+        display: none;
+    }
+    .header-area.header-gym .header-inner .title {
+        font-size: 52px;
+        line-height: 62px;
+    }
+    .header-area.header-restaurant .restaurant-bg-img {
+        display: none;
+    }
+    .header-area.header-finance .header-inner .title {
+        font-size: 52px;
+        line-height: 62px;
+    }
+    .header-area.header-restaurant .header-inner .title {
+        font-size: 72px;
+        line-height: 82px;
+    }
+    .section-title.restaurant .title {
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .section-title .title.social-title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .food-single-item .content .title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .how-it-single-item-02 {
+        padding: 0;
+    }
+    .call-action-img {
+        display: none;
+    }
+    .call-to-action-inner.style-05 {
+        padding-right: 0;
+    }
+    .delight-customers-area .section-title .title,
+    .online-order-area .section-title .title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .call-to-action-inner.style-04 {
+        display: block;
+    }
+    .call-to-action-inner.style-04 .title {
+        margin-bottom: 30px;
+    }
+    .single-best-item .shape {
+        display: none;
+    }
+    .food-widget {
+        display: block;
+        text-align: center;
+    }
+    .footer-top .bg-img-02 {
+        width: 140px;
+        height: 140px;
+        background-size: contain;
+    }
+    .section-title.sass .title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .testimonial-area .social-testimonial .section-title .title {
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .frequently-area.padding-bottom-70 {
+        padding-bottom: 120px;
+    }
+    .header-area .title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .header-bottom-img {
+        min-height: 450px;
+    }
+    .header-bottom-area .half-cricle {
+        width: 120px;
+        height: 65px;
+        border: 30px solid #feba71;
+    }
+    .header-area.header-startup .shape-02 {
+        width: 380px;
+        height: 400px;
+    }
+    .single-testimonial-item-03 {
+        flex-direction: column-reverse;
+    }
+    .price-plan-area .bg-img-02 {
+        bottom: 20%;
+        top: initial;
+    }
+    .header-area.header-startup .startup-bg-img {
+        display: none;
+    }
+    .testimonial-area .sass-testimonial .section-title .title {
+        margin-right: 0;
+    }
+    .testimonial-area .sass-testimonial {
+        padding: 0 50px 68px;
+    }
+    .call-to-action-inner.style-02 {
+        padding: 75px 50px 80px;
+    }
+    .call-to-action-inner .bg-image {
+        display: none;
+    }
+    .build-area .build-img.bg-image-02 {
+        margin-bottom: 30px;
+    }
+    .build-area .shape:after {
+        width: 450px;
+        height: 450px;
+    }
+    .contact-page-form {
+        margin-top: 20px;
+    }
+    .header-area.header-sass .sass-bg-img {
+        height: 600px;
+        width: 600px;
+    }
+    .header-area.header-brand .sass-bg-img {
+        display: none;
+    }
+    .header-area.header-brand .header-inner .title {
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .section-title.brand .title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .single-testimonial-item-06 .content .description {
+        padding: 85px 50px;
+    }
+    .single-testimonial-item-06 .content .author-details .author-meta {
+        transform: initial;
+        left: 50px;
+    }
+    .call-to-action-inner.style-03 {
+        padding: 70px 50px 65px;
+    }
+    .call-to-action-inner.style-03 .shape-04 {
+        display: none;
+    }
+    .single-testimonial-item-08 {
+        display: block;
+    }
+    .single-testimonial-item-08 .content {
+        position: initial;
+        transform: initial;
+    }
+    .how-it-single-item {
+        padding: 0;
+    }
+    .breadcrumb-area .page-title.style-01 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .contact-area.padding-bottom-350 {
+        padding-bottom: 150px;
+    }
+    .section-title.gym .title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .header-area.header-gym .gym-bg-img {
+        display: none;
+    }
+}
+
+
+/* medium tablet layout 599px */
+
+@media only screen and (max-width: 599px) {
+    .supports-your-area.padding-bottom-120 {
+        padding-bottom: 0px;
+    }
+    .header-area .bg-img {
+        height: 130px;
+        width: 220px;
+    }
+    .header-area .bg-img-09 {
+        height: 150px;
+        width: 80px;
+    }
+    .header-area .bg-img-08 {
+        height: 170px;
+    }
+    .header-area .bg-img-10 {
+        height: 140px;
+    }
+    .header-area .bg-img-05 {
+        height: 130px;
+    }
+    .header-area .bg-img-06 {
+        height: 120px;
+    }
+    .header-area.header-social .header-inner .title {
+        font-size: 52px;
+        line-height: 62px;
+    }
+    .header-area.header-social .social-bg-img-02 {
+        left: 16%;
+        top: 13%;
+    }
+    .create-content-area.padding-bottom-90.padding-top-75 {
+        padding-top: 15px;
+    }
+    .create-content-area.padding-bottom-110 {
+        padding-bottom: 80px;
+    }
+    .call-to-action-inner.style-01 {
+        padding: 75px 50px 80px;
+    }
+    .header-area.header-startup .shape-02 {
+        width: 280px;
+        height: 300px;
+    }
+    .header-area.header-startup .shape {
+        width: 170px;
+        height: 180px;
+    }
+    .destination-single-item .content {
+        max-width: initial;
+    }
+    .header-area.header-sass .sass-bg-img {
+        display: none;
+    }
+    .header-area.header-sass .sass-bg-img-02 {
+        bottom: -70%;
+    }
+    .header-area.header-sass::after {
+        height: 75%;
+        width: 100%;
+    }
+    .copyright-area .copyright-item {
+        display: block;
+    }
+    .header-area.header-sass {
+        padding: 205px 0 155px;
+    }
+    .build-area.padding-bottom-90.padding-top-70 {
+        padding-bottom: 40px;
+    }
+    .price-plan-area.padding-top-110.padding-bottom-90 {
+        padding-top: 70px;
+    }
+    .trip-area .trip-img.bg-image,
+    .destination-area .destination-img.bg-image {
+        min-height: 300px;
+    }
+    .create-content-area .trip-img.bg-image {
+        min-height: 410px;
+    }
+    .build-area .build-img.bg-image-02 {
+        min-height: 280px;
+    }
+    .header-bottom-area.padding-bottom-85.padding-top-110 {
+        padding-top: 85px;
+    }
+    .header-area .bg-img-11 {
+        display: none;
+    }
+    .get-in-touch-area .bg-image-02 {
+        display: none;
+    }
+    .contact-area.padding-bottom-350 {
+        padding-bottom: 150px;
+    }
+    .online-order-area.padding-bottom-120.padding-top-120 {
+        padding-bottom: 60px;
+    }
+    .food-img.bg-image {
+        min-height: 370px;
+    }
+    .fitness-app-area .content-wrap {
+        display: block;
+    }
+    .fitness-app-area .content-wrap .content {
+        margin-bottom: 40px;
+    }
+    .testimonial-area.bg-image-02 {
+        background-size: cover;
+    }
+    .header-area.header-gym {
+        padding: 200px 0 200px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .call-to-action-inner.style-06 .subscribe-form {
+        display: block;
+    }
+    .header-area.header-entertainment .header-inner .title {
+        font-size: 62px;
+        line-height: 72px;
+    }
+    .call-to-action-inner.style-07 .title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .vivid-content-area {
+        padding: 80px 30px;
+    }
+    .call-to-action-inner.style-06 .subscribe-form .submit-btn {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .call-to-action-inner.style-06 .title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .unique-content-area {
+        padding: 0 15px;
+    }
+    .header-area.header-business .header-inner .title {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    .header-area .title {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    .header-area.header-gym .header-inner .title {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .section-title .title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .header-area.header-social .header-inner .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .section-title .title.social-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .join-apps-area .section-title .apps-download {
+        display: block;
+    }
+    .join-apps-area .section-title .apps-download .download-link {
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    .testimonial-area .social-testimonial .section-title .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .question-form-area {
+        background-color: #e5e5ec;
+        padding: 50px 30px;
+    }
+    .question-form {
+        display: block;
+    }
+    .question-form .submit-btn {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .header-area.header-startup .header-inner span {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .section-title.startup .title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .offer-single-item .icon {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        font-size: 30px;
+    }
+    .offer-single-item {
+        padding: 40px 30px 35px 30px;
+    }
+    .offer-single-item .content {
+        margin-left: 25px;
+    }
+    .call-to-action-inner.style-01 {
+        padding: 75px 30px 80px;
+    }
+    .header-area.header-startup .header-inner .header-form-area {
+        margin-bottom: 80px;
+    }
+    .testimonial-area .sass-testimonial {
+        padding: 0 0px 68px;
+    }
+    .section-title.sass .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .call-to-action-inner.style-02 {
+        padding: 75px 30px 80px;
+    }
+    .call-to-action-inner.style-02 .btn-wrapper .boxed-btn {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    .testimonial-area .social-testimonial {
+        padding: 70px 30px 65px;
+    }
+    .contact-area .bg-image {
+        display: none;
+    }
+    .header-bottom-area.padding-bottom-85.padding-top-110 {
+        padding-top: 55px;
+    }
+    .section-title.brand .title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .portfolio-header-section .section-title .title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .call-to-action-inner.style-03 {
+        padding: 70px 30px 65px;
+    }
+    .call-to-action-inner.style-03 .content .title {
+        font-size: 32px;
+    }
+    .breadcrumb-area .page-title,
+    .breadcrumb-area .page-title.style-01 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .single-testimonial-item-08 .content {
+        padding: 60px 30px 55px;
+    }
+    .counter-single-item .counter-item {
+        width: 60px;
+        height: 60px;
+    }
+    .counter-single-item .counter-item span {
+        line-height: 20px;
+        font-size: 20px;
+    }
+    .header-area.header-restaurant .header-inner .title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .section-title.restaurant .title {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .call-to-action-inner.style-04 .title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .testimonial-area.padding-top-85.padding-bottom-120 {
+        padding-top: 0;
+    }
+    .delight-customers-area .section-title .title,
+    .online-order-area .section-title .title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .single-workout-item {
+        padding: 75px 30px 70px;
+    }
+    .single-workout-item .icon {
+        font-size: 52px;
+    }
+    .call-to-action-inner.style-05 .title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+}
+
+
+/* mobile tablet layout 414px */
+
+@media only screen and (max-width: 414px) {
+    .header-area .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .call-to-action-inner .title {
+        font-size: 28px;
+    }
+    .header-area.header-social .header-inner .title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .section-title .title.social-title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .header-area.header-startup .header-inner span {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .header-area.header-startup .header-inner .title {
+        font-size: 46px;
+        line-height: 56px;
+    }
+    .offer-single-item {
+        padding: 40px 15px 35px 15px;
+    }
+    .offer-single-item .content {
+        margin-left: 15px;
+    }
+    .section-title.startup .title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .call-to-action-inner.style-01 {
+        padding: 75px 15px 80px;
+    }
+    .testimonial-area .sass-testimonial .section-title .title {
+        font-size: 28px;
+    }
+    .section-title.sass .title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .section-title.sass .title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .call-to-action-inner .title {
+        font-size: 26px;
+    }
+    .hard-single-item .content .title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .single-testimonial-item-05 {
+        padding: 50px 30px 50px;
+    }
+    .header-area {
+        padding: 200px 0 300px;
+    }
+    .food-order-area::after {
+        height: 50%;
+        bottom: -50%;
+    }
+    .header-area .btn-wrapper .boxed-btn {
+        width: 100%;
+    }
+    .header-area .btn-wrapper .boxed-btn+.boxed-btn {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+
+/* mobile tablet layout 375px */
+
+@media only screen and (max-width: 384px) {
+    .single-everything-item .content .title {
+        font-size: 20px;
+    }
+    .header-area.header-entertainment .header-inner .title {
+        font-size: 52px;
+        line-height: 62px;
+    }
+    .header-area.header-startup .header-inner .header-form-area {
+        display: block;
+    }
+    .header-area.header-startup .header-inner .header-form-area .submit-btn {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .section-title.brand .title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .call-to-action-inner.style-05 .title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .portfolio-header-section .section-title .title {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .single-testimonial-item-06 .content .description {
+        padding: 85px 30px;
+    }
+    .call-to-action-inner.style-03 {
+        padding: 70px 15px 65px;
+    }
+    .call-to-action-inner.style-03 .content .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .delight-customers-area .section-title .title,
+    .online-order-area .section-title .title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .header-area.header-restaurant .header-inner .title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .food-img.bg-image {
+        min-height: 330px;
+    }
+    .single-workout-item .content {
+        margin-left: 15px;
+    }
+    .single-workout-item .icon {
+        font-size: 40px;
+    }
+}
+
+
+/* mobile tablet layout 360px */
+
+@media only screen and (max-width: 360px) {
+    .header-area .title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .testimonial-area .sass-testimonial .section-title .title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .section-title.sass .title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .call-to-action-inner.style-02 {
+        padding: 75px 15px 80px;
+    }
+    .call-to-action-inner .title {
+        font-size: 24px;
+    }
+    .section-title .title.social-title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .section-title.startup .title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+}
+
+@media only screen and (max-width: 340px) {}
+
+
+/* mobile tablet layout 320px */
+
+@media only screen and (max-width: 330px) {}

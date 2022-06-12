@@ -1,0 +1,183 @@
+// Work Single Item
+.work-single-item {
+    &:hover {
+        .content {
+            .icon {
+                background-color: #f5ae6f;
+                color: #f2e5e0;
+                &.style-01 {
+                    background-color: #45d6d2;
+                    color: #ceeef5;
+                }
+                &.style-02 {
+                    background-color: #f7618b;
+                    color: #f2d7e7;
+                }
+                &.style-03 {
+                    background-color: #7048c0;
+                    color: #d7d2f2;
+                }
+                &.style-04 {
+                    color: #efd8f2;
+                    background-color: #b13cc0;
+                }
+                &.style-05 {
+                    color: #fdeee1;
+                    background-color: #f6af6f;
+                }
+            }
+        }
+    }
+    .content {
+        .icon {
+            margin-bottom: 20px;
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+            text-align: center;
+            border-radius: 50%;
+            font-size: 35px;
+            color: #f5ae6f;
+            background-color: #f2e5e0;
+            transition: all 500ms ease-out;
+            &.style-01 {
+                color: #45d6d2;
+                background-color: #ceeef5;
+            }
+            &.style-02 {
+                color: #f7618b;
+                background-color: #f2d7e7;
+            }
+            &.style-03 {
+                color: #7048c0;
+                background-color: #d7d2f2;
+            }
+            &.style-04 {
+                background-color: #efd8f2;
+                color: #b13cc0;
+            }
+            &.style-05 {
+                background-color: #fdeee1;
+                color: #f6af6f;
+            }
+        }
+        .title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #000629;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.work-single-item-02 {
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 45px 40px 40px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    .icon {
+        display: inline-block;
+        color: #ff6661;
+        font-size: 55px;
+        line-height: 65px;
+        position: relative;
+        z-index: 0;
+        .shape {
+            position: absolute;
+            bottom: 9px;
+            right: -30px;
+            width: 60px;
+            height: 50px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            z-index: -1;
+        }
+        .shape-02 {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 35px;
+            height: 40px;
+            background-color: transparent;
+            border: 1px solid #000629;
+            z-index: -1;
+        }
+    }
+    .content {
+        .title {
+            margin: auto;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            max-width: 255px;
+            font-size: 24px;
+            line-height: 34px;
+            color: #000629;
+            font-weight: 700;
+        }
+    }
+}
+
+.work-single-item-03 {
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 45px 40px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 125px 0px rgba(32, 33, 69, 0.16);
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 0;
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 10px;
+        width: 0;
+        border-radius: 10px 10px 0 0;
+        background-color: #ae39ff;
+        transition: all 500ms ease-in;
+        z-index: -1;
+    }
+    &:hover {
+        &::after {
+            width: 100%;
+        }
+    }
+    &.style-01 {
+        &::after {
+            background-color: #20b3f8;
+        }
+        .icon {
+            color: #20b3f8;
+        }
+    }
+    &.style-02 {
+        &::after {
+            background-color: #fd37e2;
+        }
+        .icon {
+            color: #fd37e2;
+        }
+    }
+    .icon {
+        display: inline-block;
+        color: #9738f6;
+        font-size: 55px;
+        line-height: 65px;
+        position: relative;
+        z-index: 0;
+    }
+    .content {
+        .title {
+            margin: auto;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            max-width: 200px;
+            font-size: 24px;
+            line-height: 34px;
+            color: #000629;
+            font-weight: 700;
+        }
+    }
+}

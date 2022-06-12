@@ -1,0 +1,115 @@
+/*----------------------------
+    Header Bottom Area
+-----------------------------*/
+
+.header-bottom-wrapper {
+    .right-content {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+.header-bottom-area {
+    position: relative;
+    z-index: 0;
+    .half-cricle {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 210px;
+        height: 110px;
+        background-color: transparent;
+        border-top-left-radius: 200px;
+        border-top-right-radius: 200px;
+        border: 50px solid #feba71;
+        transform: rotate(140deg);
+        border-bottom: 0;
+        transform-origin: bottom;
+        animation: rotate 12s both;
+        @keyframes rotate {
+            0% {
+                border-color: #feba71;
+                transform: rotate(0deg);
+            }
+            25% {
+                border-color: #feae71;
+            }
+            50% {
+                border-color: #fe9b71;
+            }
+            75% {
+                border-color: #fe8b71;
+            }
+            100% {
+                border-color: #fe8171;
+                transform: rotate(140deg);
+            }
+        }
+    }
+    .triangle {
+        position: absolute;
+        right: 10%;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        transform: skewX(10deg);
+        border-top: 30px solid transparent;
+        border-left: 30px solid transparent;
+        border-right: 30px solid #bd25fd;
+        border-bottom: 30px solid #bd25fd;
+    }
+    &.bg-image {
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 0;
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 90px;
+            background-color: $white;
+            z-index: -1;
+        }
+    }
+    &.m-bottom {
+        margin-bottom: -90px;
+        position: relative;
+        z-index: 1;
+    }
+    &.m-top {
+        margin-top: -137px;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.header-bottom-inner {}
+
+.header-bottom-wrap {
+    background-color: var(--secondary-color);
+    padding: 30px 0 40px 0;
+}
+
+.request-form-wrapper {
+    padding: 60px 70px 47px;
+    &.bg-image {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .contact-page-form {
+        .btn-wrapper {
+            .boxed-btn {
+                width: 100%;
+                border-radius: 0;
+                padding: 24.5px 40px;
+                &.brrtb {
+                    border-radius: 0px 5px 5px 0px;
+                }
+            }
+        }
+    }
+}

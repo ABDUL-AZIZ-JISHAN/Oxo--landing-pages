@@ -1,0 +1,192 @@
+/*--------------------------------------------------------------
+	## Comments
+--------------------------------------------------------------*/
+
+.comment-content a {
+    word-wrap: break-word;
+}
+
+.bypostauthor {
+    display: block;
+}
+
+.comments-area {
+    margin-top: 30px;
+}
+
+.comments-area .comments-title {
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 600;
+    margin-bottom: 38px;
+    text-transform: uppercase;
+}
+
+.comments-area .comment-list .comment-respond {
+    margin-bottom: 30px;
+}
+
+.comments-area .comment-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.comments-area .comment-list li {
+    margin-bottom: 30px;
+}
+
+.comments-area .comment-list li:last-child {
+    margin-bottom: 0;
+}
+
+.comments-area .comment-list li ul.children {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+}
+
+.comments-area .comment-list li ul {
+    list-style: none;
+}
+
+.comments-area .comment-list li ul.children li {
+    margin-left: 50px;
+    list-style-type: none;
+    list-style: none;
+}
+
+.comments-area .comment-list li .single-comment-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+}
+
+.comments-area .comment-list li .single-comment-wrap .thumb {
+    margin-right: 20px;
+    min-width: 80px;
+    border-radius: 50%;
+}
+
+.comments-area .comment-list li .single-comment-wrap .thumb img {
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.comments-area .comment-list li .single-comment-wrap .date,
+.blog-details-page-content-area .comments-area .comment-list li .single-comment-wrap .time {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.comments-area .comment-list li .single-comment-wrap .content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: relative;
+}
+
+.comments-area .comment-list .has-children {
+    padding-left: 80px;
+}
+
+.comments-area .comment-list li .single-comment-wrap .content .title {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: var(--heading-font);
+}
+
+.comments-area .comment-list li .single-comment-wrap .content .comment-content {
+    max-width: 620px;
+}
+
+.comments-area .comment-list li .single-comment-wrap .content p {
+    font-size: 14px;
+    line-height: 24px;
+    word-break: break-word;
+}
+
+.comments-area .comment-list li .single-comment-wrap .content p:last-child {
+    margin-bottom: 0;
+}
+
+.comments-area .comment-list li .single-comment-wrap .content .reply {
+    color: var(--secondary-color);
+}
+
+.comments-area .comment-list li .single-comment-wrap .content .reply:hover {
+    color: var(--main-color-one);
+}
+
+.comments-area .reply-title,
+.comments-area .comment-reply-title {
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 600;
+}
+
+.comments-area .form-submit {
+    margin-bottom: 0;
+}
+
+.comment-form .form-group.textarea .form-control {
+    min-height: 160px;
+    resize: none;
+    line-height: 26px;
+}
+
+.comment-form .form-group.textarea .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.comment-form .form-group .form-control {
+    height: 50px;
+    line-height: 50px;
+    border-radius: 0;
+    border: 1px solid #f2f2f3;
+    background-color: #f2f2f3;
+}
+
+.comment-form .submit-btn {
+    height: 50px;
+    width: auto;
+    border-radius: 5px;
+    font-weight: 400;
+    background-color: var(--main-color-one);
+    border: none;
+    cursor: pointer;
+    transition: .3s ease-in;
+    color: $white;
+}
+
+.comment-form .submit-btn:hover {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.comment-respond {
+    /*margin-top: 20px;*/
+}
+
+.comments-area .comment-list .children li:last-child {
+    margin-bottom: 30px;
+}
+
+.comments-area .comment-list li ul.children {
+    margin-top: 30px;
+}
+
+.comment-form-cookies-consent input[type=checkbox] {
+    margin-right: 5px;
+}

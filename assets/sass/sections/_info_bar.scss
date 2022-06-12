@@ -1,0 +1,87 @@
+/*----------------------------
+    Info Bar
+----------------------------*/
+
+.info-bar-bottom {
+    background-color: transparent;
+    &.style-01 {
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+        padding: 25px 0;
+    }
+}
+
+.info-bar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+        display: inline-block;
+        +li {
+            margin-left: 20px;
+        }
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        color: $white;
+        @include transition($transition);
+        &:hover {
+            color: var(--secondary-color);
+        }
+        i {
+            margin-right: 3px;
+            color: var(--secondary-color);
+        }
+    }
+}
+
+.info-items-02 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+        display: flex;
+        align-items: center;
+        .title {
+            color: $white;
+            font-size: 12px;
+            font-weight: 700;
+            margin-top: 15px;
+            margin-right: 15px;
+        }
+        .number {
+            color: $white;
+            font-size: 24px;
+            font-weight: 700;
+            span {
+                color: var(--secondary-color);
+            }
+        }
+    }
+}
+
+.info-items-icon {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+        display: inline-block;
+        +li {
+            margin-left: 20px;
+        }
+        font-size: 14px;
+        line-height: 24px;
+        @include transition($transition);
+        &:hover {
+            color: var(--secondary-color);
+        }
+    }
+}

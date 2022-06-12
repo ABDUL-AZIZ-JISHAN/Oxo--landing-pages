@@ -1,0 +1,439 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 25/08/2019 15:18
+  	*/
+	
+	@font-face {
+	    font-family: "Flaticon";
+	    src: url("../fonts/Flaticon.eot");
+	    src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"), url("../fonts/Flaticon.woff2") format("woff2"), url("../fonts/Flaticon.woff") format("woff"), url("../fonts/Flaticon.ttf") format("truetype"), url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	    font-weight: normal;
+	    font-style: normal;
+	}
+	
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+	    @font-face {
+	        font-family: "Flaticon";
+	        src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	    }
+	}
+	
+	[class^="flaticon-"]:before,
+	[class*=" flaticon-"]:before,
+	[class^="flaticon-"]:after,
+	[class*=" flaticon-"]:after {
+	    font-family: Flaticon;
+	    font-style: normal;
+	}
+	
+	.flaticon-right-quotation-mark:before {
+	    content: "\f100";
+	}
+	
+	.flaticon-quote-left:before {
+	    content: "\f101";
+	}
+	
+	.flaticon-android-logo:before {
+	    content: "\f102";
+	}
+	
+	.flaticon-speedometer:before {
+	    content: "\f103";
+	}
+	
+	.flaticon-left-quote:before {
+	    content: "\f104";
+	}
+	
+	.flaticon-user:before {
+	    content: "\f105";
+	}
+	
+	.flaticon-bar-chart:before {
+	    content: "\f106";
+	}
+	
+	.flaticon-speech-bubble:before {
+	    content: "\f107";
+	}
+	
+	.flaticon-pencil:before {
+	    content: "\f108";
+	}
+	
+	.flaticon-user-1:before {
+	    content: "\f109";
+	}
+	
+	.flaticon-trash:before {
+	    content: "\f10a";
+	}
+	
+	.flaticon-clock:before {
+	    content: "\f10b";
+	}
+	
+	.flaticon-mouse:before {
+	    content: "\f10c";
+	}
+	
+	.flaticon-folder:before {
+	    content: "\f10d";
+	}
+	
+	.flaticon-volume:before {
+	    content: "\f10e";
+	}
+	
+	.flaticon-sitemap:before {
+	    content: "\f10f";
+	}
+	
+	.flaticon-shuffle:before {
+	    content: "\f110";
+	}
+	
+	.flaticon-levels:before {
+	    content: "\f111";
+	}
+	
+	.flaticon-screen:before {
+	    content: "\f112";
+	}
+	
+	.flaticon-switch:before {
+	    content: "\f113";
+	}
+	
+	.flaticon-sledge:before {
+	    content: "\f114";
+	}
+	
+	.flaticon-basketball:before {
+	    content: "\f115";
+	}
+	
+	.flaticon-cloud-computing:before {
+	    content: "\f116";
+	}
+	
+	.flaticon-next:before {
+	    content: "\f117";
+	}
+	
+	.flaticon-speech-bubble-1:before {
+	    content: "\f118";
+	}
+	
+	.flaticon-upload:before {
+	    content: "\f119";
+	}
+	
+	.flaticon-upload-1:before {
+	    content: "\f11a";
+	}
+	
+	.flaticon-power-button:before {
+	    content: "\f11b";
+	}
+	
+	.flaticon-download:before {
+	    content: "\f11c";
+	}
+	
+	.flaticon-upload-2:before {
+	    content: "\f11d";
+	}
+	
+	.flaticon-switch-1:before {
+	    content: "\f11e";
+	}
+	
+	.flaticon-mail:before {
+	    content: "\f11f";
+	}
+	
+	.flaticon-mail-1:before {
+	    content: "\f120";
+	}
+	
+	.flaticon-computer:before {
+	    content: "\f121";
+	}
+	
+	.flaticon-computer-1:before {
+	    content: "\f122";
+	}
+	
+	.flaticon-tools-and-utensils:before {
+	    content: "\f123";
+	}
+	
+	.flaticon-pin:before {
+	    content: "\f124";
+	}
+	
+	.flaticon-stars:before {
+	    content: "\f125";
+	}
+	
+	.flaticon-monitor:before {
+	    content: "\f126";
+	}
+	
+	.flaticon-notepad:before {
+	    content: "\f127";
+	}
+	
+	.flaticon-clipboards:before {
+	    content: "\f128";
+	}
+	
+	.flaticon-clipboards-1:before {
+	    content: "\f129";
+	}
+	
+	.flaticon-padlock:before {
+	    content: "\f12a";
+	}
+	
+	.flaticon-android:before {
+	    content: "\f12b";
+	}
+	
+	.flaticon-placeholder:before {
+	    content: "\f12c";
+	}
+	
+	.flaticon-clean:before {
+	    content: "\f12d";
+	}
+	
+	.flaticon-plane:before {
+	    content: "\f12e";
+	}
+	
+	.flaticon-apple:before {
+	    content: "\f12f";
+	}
+	
+	.flaticon-padlock-1:before {
+	    content: "\f130";
+	}
+	
+	.flaticon-followers:before {
+	    content: "\f131";
+	}
+	
+	.flaticon-loupe:before {
+	    content: "\f132";
+	}
+	
+	.flaticon-collaboration:before {
+	    content: "\f133";
+	}
+	
+	.flaticon-shopping-cart:before {
+	    content: "\f134";
+	}
+	
+	.flaticon-email:before {
+	    content: "\f135";
+	}
+	
+	.flaticon-pills:before {
+	    content: "\f136";
+	}
+	
+	.flaticon-padlock-2:before {
+	    content: "\f137";
+	}
+	
+	.flaticon-notification:before {
+	    content: "\f138";
+	}
+	
+	.flaticon-prescription:before {
+	    content: "\f139";
+	}
+	
+	.flaticon-share:before {
+	    content: "\f13a";
+	}
+	
+	.flaticon-email-1:before {
+	    content: "\f13b";
+	}
+	
+	.flaticon-paper-plane:before {
+	    content: "\f13c";
+	}
+	
+	.flaticon-smartphone:before {
+	    content: "\f13d";
+	}
+	
+	.flaticon-graduation-hat:before {
+	    content: "\f13e";
+	}
+	
+	.flaticon-heart-beat:before {
+	    content: "\f13f";
+	}
+	
+	.flaticon-call:before {
+	    content: "\f140";
+	}
+	
+	.flaticon-attach:before {
+	    content: "\f141";
+	}
+	
+	.flaticon-cardiology:before {
+	    content: "\f142";
+	}
+	
+	.flaticon-bell-ring:before {
+	    content: "\f143";
+	}
+	
+	.flaticon-air-freight:before {
+	    content: "\f144";
+	}
+	
+	.flaticon-search:before {
+	    content: "\f145";
+	}
+	
+	.flaticon-edit:before {
+	    content: "\f146";
+	}
+	
+	.flaticon-privacy:before {
+	    content: "\f147";
+	}
+	
+	.flaticon-shopping-cart-1:before {
+	    content: "\f148";
+	}
+	
+	.flaticon-speedometer-1:before {
+	    content: "\f149";
+	}
+	
+	.flaticon-clipboard:before {
+	    content: "\f14a";
+	}
+	
+	.flaticon-apple-1:before {
+	    content: "\f14b";
+	}
+	
+	.flaticon-gallery:before {
+	    content: "\f14c";
+	}
+	
+	.flaticon-save-money:before {
+	    content: "\f14d";
+	}
+	
+	.flaticon-share-1:before {
+	    content: "\f14e";
+	}
+	
+	.flaticon-star:before {
+	    content: "\f14f";
+	}
+	
+	.flaticon-hotel:before {
+	    content: "\f150";
+	}
+	
+	.flaticon-clock-1:before {
+	    content: "\f151";
+	}
+	
+	.flaticon-export:before {
+	    content: "\f152";
+	}
+	
+	.flaticon-notification-1:before {
+	    content: "\f153";
+	}
+	
+	.flaticon-smartphone-1:before {
+	    content: "\f154";
+	}
+	
+	.flaticon-fast-delivery:before {
+	    content: "\f155";
+	}
+	
+	.flaticon-mobile:before {
+	    content: "\f156";
+	}
+	
+	.flaticon-contract:before {
+	    content: "\f157";
+	}
+	
+	.flaticon-accounting:before {
+	    content: "\f158";
+	}
+	
+	.flaticon-notebook:before {
+	    content: "\f159";
+	}
+	
+	.flaticon-verify:before {
+	    content: "\f15a";
+	}
+	
+	.flaticon-feedback:before {
+	    content: "\f15b";
+	}
+	
+	.flaticon-sticky-notes:before {
+	    content: "\f15c";
+	}
+	
+	.flaticon-favourite:before {
+	    content: "\f15d";
+	}
+	
+	.flaticon-graduate:before {
+	    content: "\f15e";
+	}
+	
+	.flaticon-student:before {
+	    content: "\f15f";
+	}
+	
+	.flaticon-send:before {
+	    content: "\f160";
+	}
+	
+	.flaticon-greeting:before {
+	    content: "\f161";
+	}
+	
+	.flaticon-graduated:before {
+	    content: "\f162";
+	}
+	
+	.flaticon-open:before {
+	    content: "\f163";
+	}
+	
+	.flaticon-monitor-1:before {
+	    content: "\f164";
+	}
+	
+	.flaticon-notification-2:before {
+	    content: "\f165";
+	}
+	
+	.flaticon-notifications:before {
+	    content: "\f166";
+	}

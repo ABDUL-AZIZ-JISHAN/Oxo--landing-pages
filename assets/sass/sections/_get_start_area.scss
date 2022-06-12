@@ -1,0 +1,7 @@
+// get-started-area
+.get-started-area {
+    &.style-01 {
+        background-color: #f4f7fe;
+        clip-path: polygon(0 0, 100% 11%, 100% 100%, 0% 100%);
+    }
+}

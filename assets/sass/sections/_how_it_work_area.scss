@@ -1,0 +1,32 @@
+// how-it-work-area
+.how-it-work-area {
+    position: relative;
+    z-index: 0;
+    .bg-shape-02 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 20%;
+        background-color: #f7f0e8;
+        z-index: -1;
+    }
+    &.bg-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .bg-shape {
+        position: absolute;
+        right: 10%;
+        top: 10%;
+        width: 320px;
+        height: 105px;
+    }
+    .section-title {
+        .title {
+            font-size: 42px;
+            color: #b55700;
+        }
+    }
+}

@@ -1,0 +1,75 @@
+/*----------------------------
+    Blog Grid Item
+-----------------------------*/
+
+.blog-grid-carousel {
+    .owl-nav div {
+        position: absolute;
+        left: -60px;
+        top: 50%;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background-color: var(--secondary-color);
+        color: $white;
+        @include transition($transition);
+        @include transform(translateY(-50%));
+        &:hover {
+            background-color: var(--main-color-one);
+            color: $white;
+        }
+        &.owl-next {
+            left: auto;
+            right: -60px;
+        }
+    }
+}
+
+.single-blog-grid-01 {
+    position: relative;
+    z-index: 0;
+    .thumb {
+        position: relative;
+        z-index: 0;
+        border-radius: 10px;
+        img {
+            border-radius: 10px;
+            width: 100%;
+        }
+        .news-date {
+            padding: 8px 20px;
+            border-radius: 20px;
+            background-color: #ffe477;
+            position: absolute;
+            left: 50%;
+            bottom: -20px;
+            transform: translateX(-50%);
+            &.style-01 {
+                background-color: #ae39ff;
+                .title {
+                    color: #fff;
+                }
+            }
+            .title {
+                font-size: 14px;
+                line-height: 24px;
+                font-weight: 700;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .content {
+        padding: 50px 0 30px;
+        .title {
+            font-size: 24px;
+            line-height: 30px;
+            font-weight: 500;
+            transition: all 500ms;
+            color: #000629;
+            &:hover {
+                color: var(--main-color-one);
+            }
+        }
+    }
+}

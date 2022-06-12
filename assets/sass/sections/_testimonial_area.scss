@@ -1,0 +1,121 @@
+/*-------------------------
+    Testimonial Area
+--------------------------*/
+
+.testimonial-area {
+    position: relative;
+    z-index: 0;
+    &.style-01 {
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0%;
+            height: 100%;
+            width: 100%;
+            background-image: linear-gradient( -32deg, rgb(67, 35, 117) 0%, rgb(172, 40, 160) 100%);
+            z-index: -1;
+        }
+    }
+    &.bg-image {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    &.bg-image-02 {
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: -480px;
+    }
+    .bg-img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: -1;
+    }
+    .shape {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 105px;
+        height: 55px;
+        background-color: transparent;
+        border-top-left-radius: 200px;
+        border-top-right-radius: 200px;
+        border: 5px solid #feba71;
+        transform: rotate(140deg);
+        border-bottom: 0;
+        transform-origin: bottom;
+        animation: rotate 12s both;
+    }
+    .shape-02 {
+        position: absolute;
+        top: 57%;
+        right: 1%;
+        transform: translateY(-50%);
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: #75e8f0;
+    }
+    .social-testimonial {
+        background-image: linear-gradient( -90deg, rgb(73, 217, 244) 0%, rgb(138, 84, 251) 99%);
+        padding: 70px 70px 65px;
+        border-radius: 5px;
+        position: relative;
+        z-index: 0;
+        .icon {
+            position: absolute;
+            left: 70px;
+            top: 70px;
+            font-size: 120px;
+            line-height: 130px;
+            color: rgba($color: $white, $alpha: .10);
+        }
+        .section-title {
+            .title {
+                font-size: 48px;
+                line-height: 58px;
+                font-weight: 500;
+            }
+        }
+    }
+    .sass-testimonial {
+        background-image: linear-gradient(180deg, rgba(237, 247, 255, 0) 0%, #edf7ff 100%);
+        padding: 0 100px 68px;
+        .section-title {
+            .title {
+                font-size: 30px;
+                line-height: 40px;
+                margin-right: 80px;
+            }
+        }
+    }
+    .lifestyle-testimonial {
+        .section-title {
+            display: flex;
+            align-items: center;
+            .title {
+                margin-right: 50px;
+            }
+        }
+    }
+    .restaurant-testimonial {
+        position: relative;
+        z-index: 2;
+        .section-title {
+            text-align: left;
+            position: absolute;
+            top: -50px;
+            left: 0;
+            z-index: 1;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+/*-----------------------------
+    Case Category
+-----------------------------*/
+.case-categories-area {
+    position: relative;
+    &.bg-image{
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        z-index: 0;
+        &:after{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--secondary-color);
+            opacity: .8;
+            z-index: -1;
+            content: '';
+        }
+    }
+}

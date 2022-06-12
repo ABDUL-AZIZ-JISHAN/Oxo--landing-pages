@@ -1,0 +1,47 @@
+// price-plan-area
+.price-plan-area {
+    position: relative;
+    z-index: 0;
+    .bg-img {
+        position: absolute;
+        left: 0;
+        top: 220px;
+        width: 500px;
+        height: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        animation: topBottom 5s infinite;
+    }
+    .bg-img-02 {
+        position: absolute;
+        right: 0;
+        top: 220px;
+        width: 500px;
+        height: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        animation: leftRight 10s infinite;
+    }
+    @keyframes topBottom {
+        0% {
+            top: 0%;
+        }
+        50% {
+            top: 10%;
+        }
+        100% {
+            bottom: 0;
+        }
+    }
+    @keyframes leftRight {
+        0% {
+            right: 0%;
+        }
+        50% {
+            right: 15%;
+        }
+        100% {
+            right: 0%;
+        }
+    }
+}

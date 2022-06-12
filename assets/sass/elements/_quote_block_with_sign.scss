@@ -1,0 +1,34 @@
+/*----------------------------
+    Quote Block With Sign
+----------------------------*/
+.quote-block-with-sign{
+    position: relative;
+    z-index: 0;
+    background-color: var(--secondary-color);
+    padding: 50px 40px 60px 40px;
+    &.radius-right{
+        border-bottom-right-radius: 60px;
+    }
+    &:after{
+        position: absolute;
+        left: 20px;
+        top: 30px;
+        font-size: 100px;
+        line-height: 100px;
+        color: #706d5f;
+        font-weight: 900;
+        font-family: "fontawesome";
+        content: "\f10d";
+        z-index: -1;
+    }
+    p{
+        font-size: 28px;
+        line-height: 43px;
+        font-style: italic;
+        font-family: var(--heading-font);
+        color: $white;
+    }
+    .sign{
+        margin-top: 26px;
+    }
+}

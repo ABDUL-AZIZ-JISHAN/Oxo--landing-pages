@@ -1,0 +1,65 @@
+// Video Player Inner
+.video-player-inner {
+    position: relative;
+    z-index: 0;
+    .play-icon {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        color: $black;
+        i {
+            width: 60px;
+            height: 40px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #111;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 10px;
+        }
+    }
+}
+
+.video-play-area {
+    position: relative;
+    z-index: 0;
+    .container {
+        .shape {
+            width: 160px;
+            height: 210px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            right: 65px;
+            top: 40%;
+            z-index: -1;
+            transform-origin: bottom center;
+            animation: swing 12s infinite both;
+        }
+        .shape-02 {
+            width: 160px;
+            height: 140px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            left: 0;
+            top: 20%;
+            z-index: -1;
+            transform-origin: bottom center;
+            animation: swing 12s infinite both;
+            &::after {
+                content: '';
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                background-color: #e9a73a;
+                position: absolute;
+                right: 50px;
+                bottom: 0;
+                z-index: -2;
+            }
+        }
+    }
+}

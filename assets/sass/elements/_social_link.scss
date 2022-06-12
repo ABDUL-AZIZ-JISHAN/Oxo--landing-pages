@@ -1,0 +1,44 @@
+.social-link {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            color: $white;
+            display: inline-block;
+            font-size: 15px;
+            transition: all 0.3s ease-in;
+            +li {
+                margin-left: 10px;
+            }
+            &:hover {
+                color: var(--secondary-color);
+            }
+        }
+    }
+    &.style-01 {
+        ul {
+            li {
+                display: block;
+                +li {
+                    margin-left: 0;
+                }
+                &:hover {
+                    color: var(--main-color-one);
+                }
+            }
+        }
+    }
+    &.style-02 {
+        ul {
+            li {
+                font-size: 15px;
+                display: inline-block;
+                color: #000000;
+                +li {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}

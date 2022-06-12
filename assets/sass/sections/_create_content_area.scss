@@ -1,0 +1,35 @@
+// create-content-area
+.create-content-area {
+    .section-title {
+        max-width: 360px;
+    }
+    .content {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            +li {
+                margin-top: 20px;
+            }
+            i {
+                margin-right: 10px;
+                color: #feba71;
+            }
+        }
+    }
+    .trip-img {
+        &.bg-image {
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            min-height: 450px;
+            width: 100%;
+        }
+    }
+}
+
+.create-content-wrap {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}

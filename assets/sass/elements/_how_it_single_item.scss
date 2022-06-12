@@ -1,0 +1,63 @@
+// Unlock Single Item
+.how-it-single-item {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 30px;
+    transition: all 500ms ease-in;
+    &:hover {
+        padding: 30px 30px 25px;
+        box-shadow: 0px 0px 103px 0px rgba(93, 136, 250, 0.5);
+        border-radius: 10px;
+    }
+    .icon {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 24px;
+        font-weight: 700;
+        color: $white;
+        margin: auto;
+        margin-bottom: 35px;
+        border-radius: 50%;
+        background-color: #fca8c9;
+        &.style-01 {
+            background-color: #a181ff;
+        }
+        &.style-02 {
+            background-color: #fe6927;
+        }
+    }
+    .content {
+        .title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #000629;
+            margin-bottom: 26px;
+        }
+    }
+}
+
+.how-it-single-item-02 {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 30px;
+    transition: all 500ms ease-in;
+    .icon {
+        font-size: 75px;
+        line-height: 85px;
+        color: #000;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+    .content {
+        .title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #b55700;
+            margin-bottom: 26px;
+        }
+        p {
+            color: $white
+        }
+    }
+}

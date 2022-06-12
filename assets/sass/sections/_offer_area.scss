@@ -1,0 +1,14 @@
+// offer-area
+.offer-area {
+    &.bg-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.offer-item-wrap {
+    &.m-bottom {
+        margin-bottom: -350px;
+    }
+}

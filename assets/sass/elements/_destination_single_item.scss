@@ -1,0 +1,23 @@
+// Destination-single-item.
+.destination-single-item {
+    display: flex;
+    &:hover {}
+    .icon {
+        font-size: 25px;
+        color: #6600f2;
+        margin-bottom: 20px;
+        transition: all 500ms ease-in-out;
+        &.style-01 {
+            color: #fb3c7f;
+        }
+    }
+    .content {
+        margin-left: 20px;
+        max-width: 150px;
+        .title {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 500;
+        }
+    }
+}

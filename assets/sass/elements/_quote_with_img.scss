@@ -1,0 +1,23 @@
+/*-------------------------------
+    Quote With Image
+-------------------------------*/
+.quote-with-image-02{
+    margin-bottom: 40px;
+    .img-wrapper{
+        position: relative;
+        z-index: 0;
+        .hover{
+            position: absolute;
+            right: 0;
+            bottom: -40px;
+            width: 80%;
+            .quote-block-with-sign{
+                padding: 50px 60px 60px 60px;
+                &:after{
+                    left: 40px;
+                    top: 30px;
+                }
+            }
+        }
+    }
+}
